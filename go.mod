@@ -1,9 +1,5 @@
 module github.com/rofinafiin/webhook
 
-go 1.21.3
-
-toolchain go1.21.4
-
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
 	github.com/aiteung/atapi v0.1.1
@@ -68,3 +64,7 @@ require (
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 )
+
+go 1.21.3
+
+toolchain go1.21.4
