@@ -1,15 +1,16 @@
-module github.com/whatsauth/webhook
+module github.com/rofinafiin/webhook
 
 go 1.21.3
+
+toolchain go1.21.4
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
 	github.com/aiteung/atapi v0.1.1
-	github.com/aiteung/atdb v0.1.3
 	github.com/aiteung/atmessage v0.1.0
-	github.com/aiteung/module v0.0.27
-	github.com/whatsauth/wa v0.0.1
-	github.com/whatsauth/ws v0.0.2
+	github.com/aiteung/module v0.1.0
+	github.com/whatsauth/wa v0.0.4
+	github.com/whatsauth/webhook v0.0.10
 )
 
 require (
@@ -17,6 +18,7 @@ require (
 	aidanwoods.dev/go-result v0.1.0 // indirect
 	filippo.io/edwards25519 v1.0.0 // indirect
 	github.com/Rhymen/go-whatsapp v0.1.1 // indirect
+	github.com/aiteung/atdb v0.1.3 // indirect
 	github.com/aiteung/musik v0.0.5 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
 	github.com/cloudevents/sdk-go/v2 v2.14.0 // indirect
@@ -32,6 +34,7 @@ require (
 	github.com/gorilla/websocket v1.5.1 // indirect
 	github.com/json-iterator/go v1.1.12 // indirect
 	github.com/klauspost/compress v1.17.2 // indirect
+	github.com/lib/pq v1.10.9 // indirect
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.15 // indirect
@@ -47,6 +50,7 @@ require (
 	github.com/valyala/fasthttp v1.50.0 // indirect
 	github.com/valyala/tcplisten v1.0.0 // indirect
 	github.com/whatsauth/watoken v0.1.3 // indirect
+	github.com/whatsauth/ws v0.0.2 // indirect
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
