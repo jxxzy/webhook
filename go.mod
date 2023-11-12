@@ -1,4 +1,4 @@
-module github.com/rofinafiin/webhook
+module github.com/jxxzy/webhook
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
