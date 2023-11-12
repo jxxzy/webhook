@@ -1,4 +1,4 @@
-module github.com/rofinafiin/webhook
+module github.com/jxxzy/webhook
 
 go 1.17
 
