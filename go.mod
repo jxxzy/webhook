@@ -1,6 +1,8 @@
 module github.com/jxxzy/webhook
 
-go 1.17
+go 1.21.3
+
+toolchain go1.21.4
 
 require (
 	github.com/GoogleCloudPlatform/functions-framework-go v1.8.0
