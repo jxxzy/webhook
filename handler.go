@@ -64,6 +64,9 @@ func PostBalasan(w http.ResponseWriter, r *http.Request) {
 				"Mawar Indah hanya akan muncul dipagi hari, MAKANYA BANGUN PAGI KAK",
 				"Cihuyyyy hari ini giseuu bahagiaaa banget",
 				"Bercandyaaa berrcandyaaaa",
+				"apaansih",
+				"gwenchanayooo",
+				"emang boleh",
 			}
 			dt := &wa.TextMessage{
 				To:       msg.Phone_number,
